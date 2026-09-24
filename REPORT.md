@@ -49,13 +49,13 @@ The table below outlines the asymptotic running time bounds for MergeSort, Quick
 The metrics collected across sizes $n = \{1\,000, 10\,000, 100\,000, 1\,000\,000\}$ and input distributions (`random`, `sorted`, `duplicates`) are plotted below[cite: 4].
 
 ### Execution Time vs Array Size ($n$)
-![Execution Time vs n](time_vs_n.png)
+![Execution Time vs n](plots/time_vs_n.png)
 
 ### Max Recursion Depth vs Array Size ($n$)
-![Recursion Depth vs n](depth_vs_n.png)
+![Recursion Depth vs n](plots/depth_vs_n.png)
 
 ### Ratio Plots (Comparisons / Complexity Limit)
-![Ratio vs n](ratio_vs_n.png)
+![Ratio vs n](plots/ratio_vs_n.png)
 
 ### Asymptotic Bound Checking ($\Theta$ Verification)
 For sorting algorithms, the ratio plotted is $\frac{\text{Comparisons}}{n \log_2 n}$. For QuickSelect, the ratio is $\frac{\text{Comparisons}}{n}$.
